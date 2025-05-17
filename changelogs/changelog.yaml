@@ -1,0 +1,83 @@
+---
+# https://github.com/ansible-community/antsibull-changelog/blob/main/docs/changelog.yaml-format.md
+releases:
+  1.0.0:
+    release_date: '2025-05-17'
+    codename: '2025-05-17'
+    changes:
+      release_summary: 'Update collection documentation.'
+      major_changes:
+        - 'Update collection documentation.'
+      minor_changes:
+        - 'N/A'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'tests'
+          description: 'Platform agnostic ansible testing patterns.'
+          namespace: null
+        - name: 'utils'
+          description: 'Platform agnostic ansible utility library.'
+          namespace: null
+  0.0.1:
+    release_date: '2025-05-15'
+    codename: '2025-05-15'
+    changes:
+      release_summary: 'Create agnostic ansible middleware library.'
+      major_changes:
+        - 'roles/tests - Added.'
+        - 'roles/utils - Added.'
+      minor_changes:
+        - 'N/A'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'tests'
+          description: 'Platform agnostic ansible testing patterns.'
+          namespace: null
+        - name: 'utils'
+          description: 'Platform agnostic ansible utility library.'
+          namespace: null
+# modules:
+#   - name: head
+#     description: Make a HEAD request
+#     namespace: 'net_tools.rest'
+#   - name: echo
+#     description: Echo params
+#     namespace: ''
+# plugins:
+#   lookup:
+#     - name: reverse
+#       description: Reverse magic
+#       namespace: null
+#   inventory:
+#     - name: docker
+#       description: Inventory plugin for docker containers
+#       namespace: null
+# objects:
+#   role:
+#     - name: install_reqs
+#       description: Install all requirements of this collection
+#       namespace: null
+# playbook:
+#   - name: wipe_personal_data
+#     description: Wipes all personal data from the database
+#     namespace: null

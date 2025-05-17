@@ -1,0 +1,9 @@
+[submodule "docs"]
+	path = docs
+	url = https://github.com/r-pufky/ansible_collection_docs
+[submodule "roles/tests"]
+	path = roles/tests
+	url = https://github.com/r-pufky/ansible_tests
+[submodule "roles/utils"]
+	path = roles/utils
+	url = https://github.com/r-pufky/ansible_utils
