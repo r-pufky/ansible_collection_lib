@@ -1,6 +1,33 @@
 ---
 # https://github.com/ansible-community/antsibull-changelog/blob/main/docs/changelog.yaml-format.md
 releases:
+  1.0.1:
+    release_date: '2025-05-18'
+    codename: '2025-05-18'
+    changes:
+      release_summary: 'Enforce test_diff defaults.'
+      major_changes:
+        - 'test_diff default value universally enforced.'
+      minor_changes:
+        - 'N/A'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'tests'
+          description: 'Platform agnostic ansible testing patterns.'
+          namespace: null
+        - name: 'utils'
+          description: 'Platform agnostic ansible utility library.'
+          namespace: null
   1.0.0:
     release_date: '2025-05-17'
     codename: '2025-05-17'
