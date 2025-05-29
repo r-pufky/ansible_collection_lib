@@ -1,6 +1,33 @@
 ---
 # https://github.com/ansible-community/antsibull-changelog/blob/main/docs/changelog.yaml-format.md
 releases:
+  1.0.2:
+    release_date: '2025-05-29'
+    codename: '2025-05-29'
+    changes:
+      release_summary: 'Remove molecule tests from build.'
+      major_changes:
+        - 'Molecule tests are no longer included in release binary.'
+      minor_changes:
+        - 'Role meta descriptions standardized.'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'tests'
+          description: 'Platform agnostic ansible testing patterns.'
+          namespace: null
+        - name: 'utils'
+          description: 'Platform agnostic ansible utility library.'
+          namespace: null
   1.0.1:
     release_date: '2025-05-18'
     codename: '2025-05-18'
