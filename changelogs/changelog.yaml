@@ -1,6 +1,34 @@
 ---
 # https://github.com/ansible-community/antsibull-changelog/blob/main/docs/changelog.yaml-format.md
 releases:
+  12.0.3:
+    release_date: '2025-08-14'
+    codename: '2025-08-14'
+    changes:
+      release_summary: 'Update test user alerts.'
+      major_changes:
+        - 'N/A'
+      minor_changes:
+        - 'role/tests.assertions - clear user alert message when test pass.'
+        - 'Align version with debian release scheme.'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'tests'
+          description: 'Platform agnostic ansible testing patterns.'
+          namespace: null
+        - name: 'utils'
+          description: 'Platform agnostic ansible utility library.'
+          namespace: null
   1.0.2:
     release_date: '2025-05-29'
     codename: '2025-05-29'
