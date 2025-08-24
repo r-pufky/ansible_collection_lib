@@ -1,6 +1,33 @@
 ---
 # https://github.com/ansible-community/antsibull-changelog/blob/main/docs/changelog.yaml-format.md
 releases:
+  13.0.0:
+    release_date: '2025-08-23'
+    codename: '2025-08-23'
+    changes:
+      release_summary: 'Trixie Release.'
+      major_changes:
+        - 'roles/* - All roles updated to support Trixie release.'
+      minor_changes:
+        - 'N/A'
+      breaking_changes:
+        - 'Bookworm support removed - use 12.0.3 for last bookworm release.'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'tests'
+          description: 'Platform agnostic ansible testing patterns.'
+          namespace: null
+        - name: 'utils'
+          description: 'Platform agnostic ansible utility library.'
+          namespace: null
   12.0.3:
     release_date: '2025-08-14'
     codename: '2025-08-14'
