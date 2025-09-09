@@ -1,6 +1,33 @@
 ---
 # https://github.com/ansible-community/antsibull-changelog/blob/main/docs/changelog.yaml-format.md
 releases:
+  13.0.1:
+    release_date: '2025-09-08'
+    codename: '2025-09-08'
+    changes:
+      release_summary: 'Add atomic_ini.'
+      major_changes:
+        - 'roles/utils - Added atomic_ini task.'
+      minor_changes:
+        - 'N/A'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'tests'
+          description: 'Platform agnostic ansible testing patterns.'
+          namespace: null
+        - name: 'utils'
+          description: 'Platform agnostic ansible utility library.'
+          namespace: null
   13.0.0:
     release_date: '2025-08-23'
     codename: '2025-08-23'
