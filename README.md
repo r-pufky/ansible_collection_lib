@@ -2,7 +2,7 @@
 
 Ansible Library Utility Middleware.
 
-Provides common testing patterns and middleware for complex testing operations.
+Provides common testing patterns and middleware for complex operations.
 
 Major release versions track Debian release versions:
 
