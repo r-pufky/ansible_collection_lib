@@ -6,8 +6,7 @@ readme: 'README.md'
 authors:
   - 'Robert Pufky <rpufky@gmail.com> (https://github.com/r-pufky)'
 description: |
-  Provides common testing patterns and middleware for complex operations that
-  are platform agnostic.
+  Provides common testing patterns and middleware for complex operations.
 license_file: 'LICENSE'
 tags:
   - 'ansible'
@@ -24,8 +23,9 @@ issues: 'https://github.com/r-pufky/ansible_collection_lib/issues'
 
 build_ignore:
   - '*molecule/*'  # Do not include molecule testing in release.
-  - 'ansible.env'  # development ansible environment.
-  - '.ansible'  # ansible collection cache for role testing.
+  - 'ansible.env'  # Development ansible environment.
+  - '.ansible'  # Ansible collection cache for role testing.
   - '.vscode'  # VSCodium settings.
-  - 'TODO.md'  # development staging todo messages.
-  - 'COMMIT.md'  # development staging commit messages.
+  - 'TODO.md'  # Development staging todo messages.
+  - 'COMMIT.md'  # Development staging commit messages.
+  - 'docs/*'  # Development docs are a separate repo and not end user.
