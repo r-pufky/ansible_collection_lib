@@ -1,7 +1,7 @@
 ---
 namespace: 'r_pufky'
 name: 'lib'
-version: '13.0.4'
+version: '13.0.5'
 readme: 'README.md'
 authors:
   - 'Robert Pufky <rpufky@gmail.com> (https://github.com/r-pufky)'
@@ -14,7 +14,7 @@ tags:
   - 'utility'
   - 'tools'
 dependencies:
-  'community.general': '=10.6.0'
+  'community.general': '=11.4.0'
 
 repository: 'https://github.com/r-pufky/ansible_collection_lib'
 documentation: 'https://github.com/r-pufky/ansible_colection_docs/README.md'
