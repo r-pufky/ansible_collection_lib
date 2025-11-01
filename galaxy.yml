@@ -1,7 +1,7 @@
 ---
 namespace: 'r_pufky'
 name: 'lib'
-version: '13.0.6'
+version: '13.0.7'
 readme: 'README.md'
 authors:
   - 'Robert Pufky <rpufky@gmail.com> (https://github.com/r-pufky)'
@@ -17,7 +17,7 @@ dependencies:
   'community.general': '=11.4.0'
 
 repository: 'https://github.com/r-pufky/ansible_collection_lib'
-documentation: 'https://github.com/r-pufky/ansible_colection_docs/README.md'
+documentation: 'https://github.com/r-pufky/ansible_collection_docs'
 homepage: 'https://github.com/r-pufky/ansible_collection_lib'
 issues: 'https://github.com/r-pufky/ansible_collection_lib/issues'
 
@@ -28,4 +28,4 @@ build_ignore:
   - '.vscode'  # VSCodium settings.
   - 'TODO.md'  # Development staging todo messages.
   - 'COMMIT.md'  # Development staging commit messages.
-  - 'docs/*'  # Development docs are a separate repo and not end user.
+  - '*docs/*'  # Development docs are a separate repo and not end user.
