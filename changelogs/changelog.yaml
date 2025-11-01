@@ -1,6 +1,38 @@
 ---
 # https://github.com/ansible-community/antsibull-changelog/blob/main/docs/changelog.yaml-format.md
 releases:
+  13.0.8:
+    release_date: '2025-11-01'
+    codename: '2025-11-01'
+    changes:
+      release_summary: 'Cleanup README.md.'
+      major_changes:
+        - 'N/A'
+      minor_changes:
+        - 'README.md - Format updated and standardized across all collections.'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'tests'
+          description: 'Platform agnostic ansible testing patterns.'
+          namespace: null
+        - name: 'utils'
+          description: 'Platform agnostic ansible utility library.'
+          namespace: null
+    plugins:
+      filter:
+        - name: 'dotted2dict'
+          description: 'Convert dotted string to nested dictionary.'
+          namespace: null
   13.0.7:
     release_date: '2025-11-01'
     codename: '2025-11-01'
