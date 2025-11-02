@@ -1,6 +1,12 @@
 # Ansible Library Utility Middleware.
 Provides common testing patterns and middleware for complex operations.
 
+> Use a **static** version.
+>
+> Many roles are still being ported to galaxy-ng and may require collection
+> changes during migrations. **OS** & **Major** version changes require manual
+> review. This applies until migration is complete and this message is removed.
+
 See [Documentation](https://github.com/r-pufky/ansible_collection_docs) for
 development setup, requirements, and submission practices. See Individual role
 documentation for usage.
@@ -12,6 +18,8 @@ documentation for usage.
   Manage Debian OS foundational services.
 * [r_pufky.game](https://galaxy.ansible.com/ui/repo/published/r_pufky/game):
   Manage linux dedicated gaming servers.
+* [r_pufky.media](https://galaxy.ansible.com/ui/repo/published/r_pufky/media):
+  Manage management and streaming services.
 * [r_pufky.srv](https://galaxy.ansible.com/ui/repo/published/r_pufky/srv):
   Manage services.
 * [r_pufky.data](https://galaxy.ansible.com/ui/repo/published/r_pufky/data):
