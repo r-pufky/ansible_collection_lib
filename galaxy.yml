@@ -17,7 +17,7 @@ dependencies:
   'community.general': '=11.4.0'
 
 repository: 'https://github.com/r-pufky/ansible_collection_lib'
-documentation: 'https://github.com/r-pufky/ansible_collection_docs'
+documentation: 'https://r-pufky.github.io/ansible_collection_docs'
 homepage: 'https://github.com/r-pufky/ansible_collection_lib'
 issues: 'https://github.com/r-pufky/ansible_collection_lib/issues'
 
