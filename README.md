@@ -1,11 +1,6 @@
 # Ansible Library Utility Middleware.
 Provides common testing patterns and middleware for complex operations.
-
 > Use a **static** version.
->
-> Many roles are still being ported to galaxy-ng and may require collection
-> changes during migrations. **OS** & **Major** version changes require manual
-> review. This applies until migration is complete and this message is removed.
 
 See [Documentation](https://r-pufky.github.io/ansible_collection_docs) for
 development setup, requirements, and submission practices. See Individual role
@@ -29,18 +24,12 @@ documentation for usage.
 
 [Install from Galaxy](https://galaxy.ansible.com/ui/repo/published/r_pufky/lib).
 
-## Versions
-**{OS}.{MAJOR}.{MINOR}**
+## [Versions](https://semver.org/spec/v2.0.0)
 
-`12.2.13`
-
-* 12 - Debian 12 (bookworm) _breaking_.
-* 2 - Collection major version 2 _breaking_.
-* 13 - Collection minor version 13 _non-breaking_.
-
-Previous OS releases:
-
-* **[12.x.x](https://github.com/r-pufky/ansible_collection_srv/tree/12.x)**: 12 Bookworm.
+ Release | Debian | Ansible | Notes
+---------|--------|---------|-------
+ 1.x.x   | 13     | 2.20    | Ansible 2.20, feature flags, and semantic versioning.
+ 0.x.x   | 12     | 2.11    | Pre-release migrations (old 12.x.x,13.x.x builds).
 
 ## License
 [AGPL-3.0 License](https://www.tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0)

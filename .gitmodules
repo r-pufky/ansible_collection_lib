@@ -1,6 +1,3 @@
 [submodule "roles/tests"]
-	path = roles/tests
+	path = roles/test
 	url = https://github.com/r-pufky/ansible_tests
-[submodule "roles/utils"]
-	path = roles/utils
-	url = https://github.com/r-pufky/ansible_utils

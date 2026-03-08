@@ -1,11 +1,11 @@
 ---
 namespace: 'r_pufky'
 name: 'lib'
-version: '13.0.8'
+version: '1.0.0'
 readme: 'README.md'
 authors:
   - 'Robert Pufky <rpufky@gmail.com> (https://github.com/r-pufky)'
-description: >
+description: |
   Provides common testing patterns and middleware for complex operations.
 license_file: 'LICENSE'
 tags:
@@ -14,17 +14,23 @@ tags:
   - 'utility'
   - 'tools'
 dependencies:
-  'community.general': '=11.4.0'
+  'community.general': '>=12.4.0,<13.0.0'
 
 repository: 'https://github.com/r-pufky/ansible_collection_lib'
 documentation: 'https://r-pufky.github.io/ansible_collection_docs'
 homepage: 'https://github.com/r-pufky/ansible_collection_lib'
 issues: 'https://github.com/r-pufky/ansible_collection_lib/issues'
 
+# Do not include: testing, environments, caches, IDE settings, or staging
+# messages in release tarball.
 build_ignore:
-  - '*molecule/*'  # Do not include molecule testing in release.
-  - 'ansible.env'  # Development ansible environment.
-  - '.ansible'  # Ansible collection cache for role testing.
-  - '.vscode'  # VSCodium settings.
-  - 'TODO.md'  # Development staging todo messages.
-  - 'COMMIT.md'  # Development staging commit messages.
+  - '*.ansible'
+  - '*.gitignore'
+  - '*.gitmodules'
+  - '*.git'
+  - '*molecule'
+  - '.envrc'
+  - '.vscode'
+  - 'ansible.env'
+  - 'TODO.md'
+  - 'COMMIT.md'
