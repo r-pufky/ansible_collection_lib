@@ -1,36 +1,13 @@
 ---
+ancestor: 2.0.0
 releases:
-  2.0.0:
-    release_date: '2026-03-14'
-    codename: '2026-03-14'
+  13.0.9:
+    release_date: '2026-04-08'
+    codename: '2026-04-08'
     changes:
       release_summary: 'Deprecated - move to r_pufky.data.'
       major_changes:
         - 'Deprecated. Move to r_pufky.data.'
-      minor_changes:
-        - 'N/A'
-      breaking_changes:
-        - 'N/A'
-      deprecated_features:
-        - 'N/A'
-      removed_features:
-        - 'N/A'
-      security_fixes:
-        - 'N/A'
-      bugfixes:
-        - 'N/A'
-    objects:
-      role:
-        - name: 'test'
-          description: 'Common testing patterns for ansible roles.'
-          namespace: null
-  1.0.0:
-    release_date: '2026-03-07'
-    codename: '2026-03-07'
-    changes:
-      release_summary: 'Initial Release.'
-      major_changes:
-        - 'Initial general release.'
       minor_changes:
         - 'N/A'
       breaking_changes:
